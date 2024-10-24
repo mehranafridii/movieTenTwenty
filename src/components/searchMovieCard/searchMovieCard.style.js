@@ -17,7 +17,11 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
 
-  movieTitle: {fontFamily: fonts.poppinsMedium, fontSize: 16},
+  movieTitle: {
+    fontFamily: fonts.poppinsMedium,
+    fontSize: 16,
+    color: colors.black,
+  },
   genreStyle: {
     fontFamily: fonts.poppinsMedium,
     fontSize: 12,

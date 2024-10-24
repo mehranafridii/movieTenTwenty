@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   inputTopContainer: top => ({
-    paddingTop: top,
+    paddingTop: top + 10,
     paddingHorizontal: 20,
     backgroundColor: colors.white,
   }),

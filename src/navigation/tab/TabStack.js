@@ -9,7 +9,12 @@ const routes = tabRoutes;
 
 const TabStack = () => {
   return (
-    <BottomTabStack.Navigator tabBar={props => <BottomTab {...props} />}>
+    <BottomTabStack.Navigator
+      tabBar={props => <BottomTab {...props} />}
+      screenOptions={{
+        tabBarHideOnKeyboard: true,
+      }}
+      initialRouteName={routes[0]?.component}>
       {routes.map(data => {
         return (
           <BottomTabStack.Screen
